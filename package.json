@@ -1,21 +1,19 @@
 {
-	"name": "gac",
-	"version": "1.0.1",
-	"description": "Run git add -A, git add -u & git commit with one command",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"preferGlobal": true,
-	"bin": {
-		"gac": "index.js"
-	},
-	"author": "Gabriel Florit",
-	"repository": {
+  "name": "gac",
+  "version": "1.0.2",
+  "description": "Run git add -A, git add -u & git commit with one command",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "gac": "index.js"
+  },
+  "author": "Gabriel Florit",
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/gabrielflorit/gac.git"
   },
-	"license": "MIT"
+  "license": "MIT"
 }
-
-
