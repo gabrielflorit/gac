@@ -7,7 +7,6 @@ if (process.argv.length < 3) {
 }
 
 cmds.push('git add -A');
-// russell was here
 cmds.push('git commit -m "'+process.argv.slice(2).join(' ')+'"');
 
 require('child_process').exec(cmds.join(' && '), function(err, stdout, stderr) {
